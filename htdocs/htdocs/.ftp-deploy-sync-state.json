@@ -1,0 +1,305 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1755217799029,
+    "data": [
+        {
+            "type": "file",
+            "name": "README.md",
+            "size": 36,
+            "hash": "faf3c06318a7f3632614f585636b8310d5c81032ee0cfdef2bbc57345eed04e3"
+        },
+        {
+            "type": "file",
+            "name": ".git/FETCH_HEAD",
+            "size": 126,
+            "hash": "203b2835b24656de048b8acf0aed1217488a749718facb48d423b431d19a97be"
+        },
+        {
+            "type": "file",
+            "name": ".git/HEAD",
+            "size": 21,
+            "hash": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80"
+        },
+        {
+            "type": "file",
+            "name": ".git/config",
+            "size": 415,
+            "hash": "3942d0022e75a529c3c4a2f6199d2c55a73cb2046025fc047c677484c05d1a59"
+        },
+        {
+            "type": "file",
+            "name": ".git/config.worktree",
+            "size": 83,
+            "hash": "443a5f645c23c3d0c0aa09f634b2ad111d46ef61946b598a2fb311678ab47454"
+        },
+        {
+            "type": "file",
+            "name": ".git/description",
+            "size": 73,
+            "hash": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+        },
+        {
+            "type": "folder",
+            "name": ".git/hooks"
+        },
+        {
+            "type": "file",
+            "name": ".git/index",
+            "size": 299,
+            "hash": "80f8f686cf25987102bfdfeb6861226f50e97229ae8ea00116c773d612ce0961"
+        },
+        {
+            "type": "folder",
+            "name": ".git/info"
+        },
+        {
+            "type": "folder",
+            "name": ".git/logs"
+        },
+        {
+            "type": "folder",
+            "name": ".git/objects"
+        },
+        {
+            "type": "folder",
+            "name": ".git/refs"
+        },
+        {
+            "type": "file",
+            "name": ".git/shallow",
+            "size": 41,
+            "hash": "dbcf4f4c74d3b8e4c6ebf4799628e7b2bb40e20c48013a3ac2c1ae3390fa08de"
+        },
+        {
+            "type": "folder",
+            "name": ".github/workflows"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/applypatch-msg.sample",
+            "size": 478,
+            "hash": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/commit-msg.sample",
+            "size": 896,
+            "hash": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/fsmonitor-watchman.sample",
+            "size": 4726,
+            "hash": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/post-update.sample",
+            "size": 189,
+            "hash": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/pre-applypatch.sample",
+            "size": 424,
+            "hash": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/pre-commit.sample",
+            "size": 1649,
+            "hash": "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/pre-merge-commit.sample",
+            "size": 416,
+            "hash": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/pre-push.sample",
+            "size": 1374,
+            "hash": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/pre-receive.sample",
+            "size": 544,
+            "hash": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/pre-rebase.sample",
+            "size": 4898,
+            "hash": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/prepare-commit-msg.sample",
+            "size": 1492,
+            "hash": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/push-to-checkout.sample",
+            "size": 2783,
+            "hash": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/sendemail-validate.sample",
+            "size": 2308,
+            "hash": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/update.sample",
+            "size": 3650,
+            "hash": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106"
+        },
+        {
+            "type": "file",
+            "name": ".git/info/exclude",
+            "size": 240,
+            "hash": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+        },
+        {
+            "type": "file",
+            "name": ".git/logs/HEAD",
+            "size": 220,
+            "hash": "b26f9150acdec9737b32fdc0765bca2f9a2b003710068115a7c754f57d6a6ea5"
+        },
+        {
+            "type": "folder",
+            "name": ".git/logs/refs"
+        },
+        {
+            "type": "folder",
+            "name": ".git/objects/43"
+        },
+        {
+            "type": "folder",
+            "name": ".git/objects/57"
+        },
+        {
+            "type": "folder",
+            "name": ".git/objects/6b"
+        },
+        {
+            "type": "folder",
+            "name": ".git/objects/8d"
+        },
+        {
+            "type": "folder",
+            "name": ".git/objects/c1"
+        },
+        {
+            "type": "folder",
+            "name": ".git/objects/ea"
+        },
+        {
+            "type": "folder",
+            "name": ".git/objects/info"
+        },
+        {
+            "type": "folder",
+            "name": ".git/objects/pack"
+        },
+        {
+            "type": "folder",
+            "name": ".git/refs/heads"
+        },
+        {
+            "type": "folder",
+            "name": ".git/refs/remotes"
+        },
+        {
+            "type": "folder",
+            "name": ".git/refs/tags"
+        },
+        {
+            "type": "file",
+            "name": ".github/workflows/deploy.yml",
+            "size": 1813,
+            "hash": "31b4a25481f9f52fb3a9111753159620a6394ed1b56775546217e3a496d4ba82"
+        },
+        {
+            "type": "folder",
+            "name": ".git/logs/refs/remotes"
+        },
+        {
+            "type": "folder",
+            "name": ".git/logs/refs/heads"
+        },
+        {
+            "type": "file",
+            "name": ".git/objects/43/392f0c2f4851a28ca6760791c0b556a9a2ab4f",
+            "size": 50,
+            "hash": "6280411930ee2284cf8833bf5650d33aaee52f29c6d4b4d928019dd897ff5136"
+        },
+        {
+            "type": "file",
+            "name": ".git/objects/57/db1350b19f5330a88333e0d6bbcbfd374a576d",
+            "size": 832,
+            "hash": "fb8f688f1eb72f4f9d307f0e084fd86984a31607f69a07b9e872e12e494aed2c"
+        },
+        {
+            "type": "file",
+            "name": ".git/objects/6b/89fa8a1e64c45794c2cefd2608542235a8fa20",
+            "size": 788,
+            "hash": "8ab9f9f6c7dcbcd3697b5f1bf707f20a5e3ff0031482bec136f8fb36f3116797"
+        },
+        {
+            "type": "file",
+            "name": ".git/objects/8d/4eb3463aecee644e2bc32d8158eba427e221f9",
+            "size": 51,
+            "hash": "04dc1f0849d63b7e7d6d8adf7e51d070c5150814825908b8f2000f423f274f45"
+        },
+        {
+            "type": "file",
+            "name": ".git/objects/c1/ad20b4804bd812c942f43c8f19486083946842",
+            "size": 55,
+            "hash": "d6c73343d7bba5f72a2595b99a7f59a0116665e587a685e5b1c3111350442d6a"
+        },
+        {
+            "type": "file",
+            "name": ".git/objects/ea/3e870b2da59a1a990509f9d04d2941025c01a3",
+            "size": 87,
+            "hash": "d48da075cd7db541ff5cd02fda886d5000cb272ea3259497d32f858ff07e4dac"
+        },
+        {
+            "type": "file",
+            "name": ".git/refs/heads/main",
+            "size": 41,
+            "hash": "dbcf4f4c74d3b8e4c6ebf4799628e7b2bb40e20c48013a3ac2c1ae3390fa08de"
+        },
+        {
+            "type": "folder",
+            "name": ".git/refs/remotes/origin"
+        },
+        {
+            "type": "folder",
+            "name": ".git/logs/refs/remotes/origin"
+        },
+        {
+            "type": "file",
+            "name": ".git/logs/refs/heads/main",
+            "size": 229,
+            "hash": "1e7a5e368a7d6ad56821fda8dbe04db1208e33ad9906f47d410065eede74b925"
+        },
+        {
+            "type": "file",
+            "name": ".git/refs/remotes/origin/main",
+            "size": 41,
+            "hash": "dbcf4f4c74d3b8e4c6ebf4799628e7b2bb40e20c48013a3ac2c1ae3390fa08de"
+        },
+        {
+            "type": "file",
+            "name": ".git/logs/refs/remotes/origin/main",
+            "size": 328,
+            "hash": "05cc16e4f6876d324a0c9540926c09b0421567882876d5ebfaa0aaec9e25a973"
+        }
+    ]
+}
