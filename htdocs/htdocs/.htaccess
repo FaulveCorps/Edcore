@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:CF-Visitor} !{"scheme":"https"}
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteEngine On 
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule "^(.+)favicon\.ico(|\?.+)$"  "/favicon.ico" [PT]
+Redirect 302 /qr/support http://edcore.rf.gd/
+php_value date.timezone Asia/Hong_Kong
+php_value display_errors Off
+Redirect 302 /redirect https://link-target.net/446863/zha6Ism9M9ZQ
