@@ -57,6 +57,9 @@ jobs:
           server-dir: /htdocs/
           dangerous-clean-slate: false
           exclude: |
+            /*           # exclude all files/folders in root
+            /*.*         # exclude all root files with extensions
             **/.git*
             **/.github*
             **/node_modules/**
+
