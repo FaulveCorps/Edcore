@@ -1,0 +1,2 @@
+# Edcore
+Unified Education Platform
