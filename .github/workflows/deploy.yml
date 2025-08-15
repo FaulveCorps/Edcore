@@ -28,7 +28,10 @@ jobs:
       - name: Download from InfinityFree
         run: |
           lftp -u "${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }}" ${{ secrets.FTP_HOST }} <<EOF
-          mirror --verbose /htdocs ./htdocs --only-newer --parallel=5
+          # List all folders in root
+          cls -1 --dirs-only / | while read folder; do
+            mirror --verbose /"$folder" ./"$folder" --only-newer --parallel=5 --exclude-glob .git*
+          done
           bye
           EOF
 
