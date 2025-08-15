@@ -28,12 +28,14 @@ jobs:
       - name: Download from InfinityFree
         run: |
           lftp -u "${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }}" ${{ secrets.FTP_HOST }} <<EOF
-          # List all folders in root
-          cls -1 --dirs-only / | while read folder; do
-            mirror --verbose /"$folder" ./"$folder" --only-newer --parallel=5 --exclude-glob .git*
-          done
+          # Mirror main folders individually
+          mirror --verbose /htdocs ./htdocs --only-newer --parallel=5 --exclude-glob .git*
+          mirror --verbose /mail ./mail --only-newer --parallel=5 --exclude-glob .git*
+          mirror --verbose /proxy-edcore.rf.gd ./proxy-edcore.rf.gd --only-newer --parallel=5 --exclude-glob .git*
+          mirror --verbose /new.edcore.rf.gd ./new.edcore.rf.gd --only-newer --parallel=5 --exclude-glob .git*
           bye
           EOF
+
 
       - name: Commit and push changes
         run: |
